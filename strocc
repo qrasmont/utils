@@ -1,0 +1,3 @@
+dir=$1
+string=$2
+grep -Hor --include '*' $string $dir| uniq -c
