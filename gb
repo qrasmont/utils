@@ -1,0 +1,5 @@
+#!/bin/bash
+
+selected=`git branch | fzf`
+
+git checkout $selected
