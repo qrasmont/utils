@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cmd=`sort ~/.zsh_history | uniq -u | fzf`
+
+$cmd
